@@ -2,4 +2,25 @@
 
 *{
   font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body{
+  background-color: #e8e8e8;
+}
+
+header{
+  background-color: #435a6a;
+  color: #fff;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a, a:hover /*o "a:hover" server para quando o cursor do mouser passar por cima*/{
+  color: unset;
+  text-decoration: none; /*para tirar o sublinhado do texto*/
 }
